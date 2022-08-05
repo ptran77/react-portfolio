@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 // import Nav component to use inside header
 import Nav from '../Nav';
 
