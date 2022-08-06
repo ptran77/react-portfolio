@@ -4,15 +4,20 @@ function Project(props) {
 
   // deconstruct project information
   const { name, img, link, github, tool } = project;
-  const backgroundImage = "background-image: url('../../projectImg/" + img + "')";
+  console.log(img);
 
+  const divStyle = {
+    backgroundImage: 'url("../../projectImg/' + img,
+    width: '500px',
+    height: '150px'
+  }
   return (
-    <div class="project" style={backgroundImage}>
+    <div className="project" style={divStyle}>
       <h3>
-        <a href={link} class="project-name">{name}</a>
-        <a href={github} class="project-link"><i class="fa fa-github" /></a>
+        <a href={link} className="project-name">{name}</a>
+        <a href={github} className="project-link"><i className="fa fa-github" /></a>
       </h3>
-      <h3 class="project-tool">{tool}</h3>
+      <h3 className="project-tool">{tool}</h3>
     </div>
   )
 }

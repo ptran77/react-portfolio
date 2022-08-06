@@ -27,7 +27,7 @@ function Portfolio() {
     },
     {
       name: "Social Network API",
-      img: "social-network-api.png",
+      img: "social-network-api.gif",
       link: "https://drive.google.com/file/d/1XpSZu62JcIR9g-mRF5qgI4WSOmDGrXy-/view",
       github: "https://github.com/ptran77/social-network-api",
       tool: "NoSQL"
@@ -41,7 +41,7 @@ function Portfolio() {
     },
     {
       name: "E-commerce Back End",
-      img: "e-commerce-back-end.png",
+      img: "e-commerce-back-end.gif",
       link: "https://drive.google.com/file/d/1tRGX0NGGXI8P3nzUzeRMnxcY10K1DDLM/view?usp=sharing",
       github: "https://github.com/ptran77/e-commerce-back-end",
       tool: "ORM"
@@ -51,7 +51,7 @@ function Portfolio() {
   return (
     <div>
       <h2>Portfolio</h2>
-      <div class="project-list">
+      <div className="project-list">
         { // Make a Project Component for each project
           projects.map((project) => (
             <Project project={project} />

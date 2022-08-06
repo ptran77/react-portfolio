@@ -24,7 +24,7 @@ function Header(props) {
         currentNavOp={currentNavOp}
         setCurrentNavOp={setCurrentNavOp}
         navOpSelected={navOpSelected}
-        setNavOpSelecte={setNavOpSelected}
+        setNavOpSelected={setNavOpSelected}
       />
     </header>
   )
