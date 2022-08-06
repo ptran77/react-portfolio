@@ -1,11 +1,11 @@
 import React from 'react';
-import profile from '../../profile.jpg';
+
 
 function About() {
   return (
     <section>
       <h2>About Me</h2>
-      <img src={profile} alt="Peter" height="200"/>
+      <img src={'./assets/img/profile.jpg'} alt="Peter" height="200"/>
       <p>
         Nunc sed velit dignissim sodales. Rhoncus mattis rhoncus urna neque viverra justo. Viverra aliquet eget sit amet tellus cras adipiscing. Nisi quis eleifend quam adipiscing vitae proin sagittis. Adipiscing commodo elit at imperdiet dui accumsan sit amet. Urna cursus eget nunc scelerisque viverra. Suspendisse potenti nullam ac tortor vitae. Enim facilisis gravida neque convallis a. Ut sem nulla pharetra diam sit amet. Est lorem ipsum dolor sit amet consectetur adipiscing.
       </p>

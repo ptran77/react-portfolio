@@ -1,13 +1,15 @@
+import React from 'react';
+
 function Project(props) {
   // get project from props
   const { project } = props;
 
   // deconstruct project information
   const { name, img, link, github, tool } = project;
-  console.log(img);
 
   const divStyle = {
-    backgroundImage: 'url("../../projectImg/' + img,
+    backgroundImage: `url("./assets/img/${img}")`,
+    backgroundSize: 'cover',
     width: '500px',
     height: '150px'
   }
