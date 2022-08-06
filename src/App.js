@@ -21,7 +21,8 @@ function App() {
         currentNavOp={currentNavOp}
         setCurrentNavOp={setCurrentNavOp}
       />
-      {currentNavOp === 'About Me' &&
+      { // if currentNavOp is 'About Me' render About component
+        currentNavOp === 'About Me' &&
         <About />
       }
       <Footer />

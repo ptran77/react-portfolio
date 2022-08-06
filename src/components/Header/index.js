@@ -15,7 +15,9 @@ function Header(props) {
 
   return (
     <header>
-      <a href="/">Peter Tran</a>
+      <h1>
+        <a href="/">Peter Tran</a>
+      </h1>
       <Nav
         // passing variables to Header component
         navOptions={navOptions}
