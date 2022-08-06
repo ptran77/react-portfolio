@@ -2,7 +2,7 @@ import './App.css';
 
 import React, { useState } from 'react';
 import Header from './components/Header';
-//import Footer from './components/Footer';
+import Footer from './components/Footer';
 
 function App() {
   // navigation options
@@ -13,12 +13,16 @@ function App() {
   const [currentNavOp, setCurrentNavOp] = useState(navOptions[0]);
   
   return (
-    <Header
-      // passing variables to Header component
-      navOptions={navOptions}
-      currentNavOp={currentNavOp}
-      setCurrentNavOp={setCurrentNavOp}
-    />
+    <div>
+      <Header
+        // passing variables to Header component
+        navOptions={navOptions}
+        currentNavOp={currentNavOp}
+        setCurrentNavOp={setCurrentNavOp}
+      />
+
+      <Footer />
+    </div>
   );
 }
 
