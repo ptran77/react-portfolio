@@ -3,6 +3,7 @@ import './App.css';
 import React, { useState } from 'react';
 import Header from './components/Header';
 import About from './components/About';
+import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
 
 function App() {
@@ -24,6 +25,10 @@ function App() {
       { // if currentNavOp is 'About Me' render About component
         currentNavOp === 'About Me' &&
         <About />
+      }
+      { // if currentNavOP is 'Portfolio' render Portfolio component
+        currentNavOp === 'Portfolio' &&
+        <Portfolio />
       }
       <Footer />
     </div>
