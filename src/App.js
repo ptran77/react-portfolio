@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import Header from './components/Header';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
@@ -29,6 +30,10 @@ function App() {
       { // if currentNavOP is 'Portfolio' render Portfolio component
         currentNavOp === 'Portfolio' &&
         <Portfolio />
+      }
+      { // if cuurentNavOp is 'Contact' render Contact component
+        currentNavOp === 'Contact' &&
+        <Contact />
       }
       <Footer />
     </div>
