@@ -5,6 +5,7 @@ import Header from './components/Header';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
+import Resume from './components/Resume';
 import Footer from './components/Footer';
 
 function App() {
@@ -34,6 +35,10 @@ function App() {
       { // if cuurentNavOp is 'Contact' render Contact component
         currentNavOp === 'Contact' &&
         <Contact />
+      }
+      { // if cuurentNavOp is 'Resume' render Resume component
+        currentNavOp === 'Resume' &&
+        <Resume />
       }
       <Footer />
     </div>
