@@ -17,6 +17,7 @@ function Header(props) {
     <header>
       <a href="/">Peter Tran</a>
       <Nav
+        // passing variables to Header component
         navOptions={navOptions}
         currentNavOp={currentNavOp}
         setCurrentNavOp={setCurrentNavOp}
