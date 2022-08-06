@@ -11,12 +11,12 @@ function Nav(props) {
   } = props;
 
   return (
-    <nav>
-      <ul>
+    <nav className="col-12 col-sm-12 col-md-8 pt-3">
+      <ul className="row">
         {// Making a list item for each nav option
           navOptions.map((navOp) => (
           <li
-            className={`${currentNavOp === navOp && !navOpSelected && 'navActive'}`}
+              className={`navOp list-unstyled col-6 col-sm-3 ${currentNavOp === navOp && !navOpSelected && 'navActive'}`}
             key={navOp}
           >
             <span onClick={() => {

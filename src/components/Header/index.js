@@ -14,9 +14,9 @@ function Header(props) {
   const [navOpSelected, setNavOpSelected] = useState(false);
 
   return (
-    <header>
-      <h1>
-        <a href="/">Peter Tran</a>
+    <header className="bg-dark row px-4 py-4">
+      <h1 className="col-12 col-sm-12 col-md-4">
+        <a href="/" className="text-white text-decoration-none ">Peter Tran</a>
       </h1>
       <Nav
         // passing variables to Header component

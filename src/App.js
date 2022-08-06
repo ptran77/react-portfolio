@@ -8,6 +8,9 @@ import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './style.css'
+
 function App() {
   // navigation options
   const [navOptions] = useState(['About Me', 'Portfolio', 'Contact', 'Resume']);
