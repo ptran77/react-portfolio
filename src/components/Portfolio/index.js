@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Project from '../Project';
 
 function Portfolio() {
-  const projects = useState([
+  const [projects] = useState([
     {
       name: "Garden Planner",
       link: "https://garden-planner-90482.herokuapp.com/",
@@ -44,6 +44,13 @@ function Portfolio() {
   return (
     <div>
       <h2>Portfolio</h2>
+      <div class="project-list">
+        { // Make a Project Component for each project
+          projects.map((project) => (
+            <Project project={project} />
+          ))
+        }
+      </div>
     </div>
   )
 }
