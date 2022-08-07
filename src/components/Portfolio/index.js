@@ -49,9 +49,9 @@ function Portfolio() {
   ]);
 
   return (
-    <div>
+    <div className="portfolio bg-dark text-white m-5 p-5 rounded">
       <h2>Portfolio</h2>
-      <div className="project-list">
+      <div className="project-list row">
         { // Make a Project Component for each project
           projects.map((project) => (
             <Project project={project} />

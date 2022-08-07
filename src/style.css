@@ -44,6 +44,47 @@ footer a {
   font-size: 20px
 }
 
+.project {
+  width: 48.5%;
+}
+
+.project-info {
+  display: none;
+  color: rgb(150, 148, 148);
+}
+
+.project:hover {
+  filter: opacity(60%);
+}
+
+.project:hover .project-info{
+  display: block;
+}
+
+.project-link, .project-github i{
+  text-decoration: none;
+  color: rgb(107, 106, 106);
+  font-weight: bolder;
+}
+
+.project-link:hover, .project-github i:hover {
+  color:rgb(251, 255, 0)
+}
+
+@media screen and (max-width: 1233px) {
+  .project {
+    width: 48%
+  }
+}
+
+@media screen and (max-width: 967px) {
+  .portfolio h2 {
+    text-align: center;
+  }
+  .project {
+    width: 100%
+  }
+}
 
 @media screen and (max-width: 768px) {
   h1 {
