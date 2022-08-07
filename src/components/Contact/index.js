@@ -34,23 +34,23 @@ function Contact() {
   }
 
   return (
-    <div>
+    <div className="contact bg-dark text-white m-5 p-5 rounded">
       <h3>Contact</h3>
       <div className="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label><br />
-          <input type="text" name="name" defaultValue={name} onBlur={handleChange}/>
+          <input type="text" name="name" defaultValue={name} onBlur={handleChange} className="w-100 p-1"/>
         </div>
         <div>
           <label htmlFor="email">Email address:</label><br />
-          <input type="email" name="email" defaultValue={email} onBlur={handleChange}/>
+          <input type="email" name="email" defaultValue={email} onBlur={handleChange} className="w-100 p-1"/>
         </div>
         <div>
           <label htmlFor="message">Message:</label><br />
-          <textarea name="message" rows="5"  defaultValue={message} onBlur={handleChange}/>
+          <textarea name="message" rows="5"  defaultValue={message} onBlur={handleChange} className="w-100 p-1"/>
         </div>
         <div className="errorMessage">{errorMessage}</div>
-        <button data-testid="button" type="submit">Submit</button>
+        <button data-testid="button" type="submit" className="submit-btn">Submit</button>
       </div>
     </div>
   )
