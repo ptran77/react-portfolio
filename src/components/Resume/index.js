@@ -2,7 +2,7 @@ function Resume() {
   return (
     <div className="resume bg-dark text-white m-5 p-5 rounded">
       <h3>Resume</h3>
-      <div className="resume-link py-1">Download my <a className="resume-download" href="./assets/resume/Peter-resume.pdf" download>Resume</a></div>
+      <div className="resume-link py-1">Download my <a className="resume-download" href="./assets/resume/Resume.docx" download>Resume</a></div>
       <div className="skills py-2">
         <div className="front-end">
           <h4>Front-End Proficiencies</h4>
