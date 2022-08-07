@@ -122,6 +122,20 @@ footer a {
   }
 }
 
+.resume-link, .front-end ul li, .back-end ul li {
+  font-size: 18px;
+}
+
+.resume-download {
+  font-weight: bold;
+  text-decoration: none;
+  color: gray
+}
+
+.resume-download:hover {
+  color: darkgray;
+}
+
 @media screen and (max-width: 576px) {
   .navOp {
     padding: 5px;
