@@ -3,14 +3,15 @@ import React from 'react';
 
 function About() {
   return (
-    <section>
+    <section className="About bg-dark text-white m-5 p-5 rounded">
       <h2>About Me</h2>
-      <img src={'./assets/img/profile.jpg'} alt="Peter" height="200"/>
-      <p>
-        Nunc sed velit dignissim sodales. Rhoncus mattis rhoncus urna neque viverra justo. Viverra aliquet eget sit amet tellus cras adipiscing. Nisi quis eleifend quam adipiscing vitae proin sagittis. Adipiscing commodo elit at imperdiet dui accumsan sit amet. Urna cursus eget nunc scelerisque viverra. Suspendisse potenti nullam ac tortor vitae. Enim facilisis gravida neque convallis a. Ut sem nulla pharetra diam sit amet. Est lorem ipsum dolor sit amet consectetur adipiscing.
-      </p>
-      <p>
-        Egestas congue quisque egestas diam in. Odio euismod lacinia at quis risus sed vulputate odio. Fames ac turpis egestas sed tempus. Pharetra pharetra massa massa ultricies. Lectus arcu bibendum at varius vel. Dui accumsan sit amet nulla. Posuere morbi leo urna molestie at elementum eu. Sit amet justo donec enim. Sem et tortor consequat id porta nibh venenatis cras.
+      <img src={'./assets/img/profile.jpg'} alt="Peter" height="200" className="mt-2"/>
+      <p className="mt-2">
+        My name is Peter Tran and I am a developer/engineer with a computer science background. Earned my certificate in Full Stack Web Development from the UC Davis Coding Booting.
+        I have become proficient in technical skills such as HTML, CSS, JavaScript, Node, Express, React, and others. As a creator, my goal is to design innovative, quality web
+        applications. Additionally, I enjoy assisting others whether it is teaching them new concepts/tools or bugfixing. In my spare time, I like to play videogames, watch anime,
+        read stories/books people have written online, and practicing my technical skills on hackerrank or making personal projects. If you have any questions, contact me by clicking
+        the contact tab and sent me a message.
       </p>
     </section>
   )

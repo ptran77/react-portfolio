@@ -11,7 +11,7 @@ function Nav(props) {
   } = props;
 
   return (
-    <nav className="col-12 col-sm-12 col-md-8 pt-3">
+    <nav className="col-12 col-sm-12 col-md-6 pt-3">
       <ul className="row">
         {// Making a list item for each nav option
           navOptions.map((navOp) => (
