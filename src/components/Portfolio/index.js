@@ -5,10 +5,17 @@ function Portfolio() {
   // Project list
   const [projects] = useState([
     {
+      name: "Purly",
+      img: "",
+      link: "https://purly.herokuapp.com/",
+      github: "https://github.com/hectorromo06/purly",
+      tool: "MERN"
+    },
+    {
       name: "Garden Planner",
       img: "garden-planner.png",
       link: "https://garden-planner-90482.herokuapp.com/",
-      github: "https://github.com/ptran77/project-2",
+      github: "https://github.com/ptran77/garden-planner",
       tool: "Full-Stack"
     },
     {
@@ -17,6 +24,13 @@ function Portfolio() {
       link: "https://diegorivera1110.github.io/anime4you/",
       github: "https://github.com/Diegorivera1110/anime4you",
       tool: "Front-End"
+    },
+    {
+      name: "Book Search Engine",
+      img: "book-search-engine.png",
+      link: "https://book-search-engine-81347.herokuapp.com/",
+      github: "https://github.com/ptran77/book-search-engine",
+      tool: 'MERN, GraphQl'
     },
     {
       name: "Budget Tracker",
