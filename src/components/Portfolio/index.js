@@ -6,7 +6,7 @@ function Portfolio() {
   const [projects] = useState([
     {
       name: "Purly",
-      img: "",
+      img: "purly.png",
       link: "https://purly.herokuapp.com/",
       github: "https://github.com/hectorromo06/purly",
       tool: "MERN"
