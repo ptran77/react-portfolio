@@ -4,7 +4,6 @@ import React, { useState } from 'react';
 import Header from './components/Header';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
 
@@ -13,7 +12,7 @@ import './style.css'
 
 function App() {
   // navigation options
-  const [navOptions] = useState(['About Me', 'Portfolio', 'Contact', 'Resume']);
+  const [navOptions] = useState(['About Me', 'Portfolio', 'Resume']);
 
   // Setting the current render to About Me
   // setCurrentNavOp is used to change the navOption
@@ -34,10 +33,6 @@ function App() {
       { // if currentNavOP is 'Portfolio' render Portfolio component
         currentNavOp === 'Portfolio' &&
         <Portfolio />
-      }
-      { // if cuurentNavOp is 'Contact' render Contact component
-        currentNavOp === 'Contact' &&
-        <Contact />
       }
       { // if cuurentNavOp is 'Resume' render Resume component
         currentNavOp === 'Resume' &&
