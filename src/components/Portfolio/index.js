@@ -32,8 +32,8 @@ function Portfolio() {
     {
       name: "Anime4You",
       img: "anime4you.png",
-      link: "https://diegorivera1110.github.io/anime4you/",
-      github: "https://github.com/Diegorivera1110/anime4you",
+      link: "ptran77.github.io/anime4you/",
+      github: "https://github.com/ptran77/anime4you",
       tool: "Front-End",
       description: `Don't have time to watch or keep track of anime. Our application is dedicated to anime lovers to stay on track with anime.
       Create and modify your own personal watchlist. Users can see the current and most popular anime, search for specfic anime or by genre, 
