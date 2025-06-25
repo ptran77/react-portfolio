@@ -32,7 +32,7 @@ function Portfolio() {
     {
       name: "Anime4You",
       img: "anime4you.png",
-      link: "ptran77.github.io/anime4you/",
+      link: "https://ptran77.github.io/anime4you/",
       github: "https://github.com/ptran77/anime4you",
       tool: "Front-End",
       description: `Don't have time to watch or keep track of anime. Our application is dedicated to anime lovers to stay on track with anime.
